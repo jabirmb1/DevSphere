@@ -1,0 +1,29 @@
+[2025-08-20T10:39:16.336Z] info  code-server 4.103.1 fbaadbcfbc16401327e28bd5df3040261977a540
+[2025-08-20T10:39:16.337Z] info  Using user-data-dir /home/coder/.local/share/code-server
+[2025-08-20T10:39:16.348Z] info  Using config file /home/coder/.config/code-server/config.yaml
+[2025-08-20T10:39:16.348Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2025-08-20T10:39:16.348Z] info    - Authentication is enabled
+[2025-08-20T10:39:16.348Z] info      - Using password from $PASSWORD
+[2025-08-20T10:39:16.348Z] info    - Not serving HTTPS
+[2025-08-20T10:39:16.348Z] info  Session server listening on /home/coder/.local/share/code-server/code-server-ipc.sock
+[10:39:31] 
+
+
+
+
+[10:39:31] Extension host agent started.
+[10:39:31] Started initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+[10:39:31] Completed initializing default profile extensions in extensions installation folder. file:///home/coder/.local/share/code-server/extensions
+[10:39:38] [172.17.0.1][a64fc47d][ManagementConnection] New connection established.
+[10:39:39] [172.17.0.1][755b0cd9][ExtensionHostConnection] New connection established.
+[10:39:39] [172.17.0.1][755b0cd9][ExtensionHostConnection] <589> Launched Extension Host Process.
+[10:40:39] [172.17.0.1][a64fc47d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:40:39] [172.17.0.1][755b0cd9][ExtensionHostConnection] <589> Extension Host Process exited with code: 0, signal: null.
+[10:40:40] [172.17.0.1][89a0a467][ManagementConnection] New connection established.
+[10:40:40] [172.17.0.1][da058a8b][ExtensionHostConnection] New connection established.
+[10:40:40] [172.17.0.1][da058a8b][ExtensionHostConnection] <1079> Launched Extension Host Process.
+[10:41:13] [172.17.0.1][89a0a467][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[10:41:13] [172.17.0.1][da058a8b][ExtensionHostConnection] <1079> Extension Host Process exited with code: 0, signal: null.
+[10:41:14] [172.17.0.1][46de93f9][ManagementConnection] New connection established.
+[10:41:14] [172.17.0.1][da635bfc][ExtensionHostConnection] New connection established.
+[10:41:14] [172.17.0.1][da635bfc][ExtensionHostConnection] <1558> Launched Extension Host Process.

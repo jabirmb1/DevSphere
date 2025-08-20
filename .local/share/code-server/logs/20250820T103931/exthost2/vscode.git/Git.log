@@ -1,0 +1,29 @@
+2025-08-20 10:40:41.476 [info] [main] Log level: Info
+2025-08-20 10:40:41.477 [info] [main] Validating found git in: "git"
+2025-08-20 10:40:41.477 [info] [main] Using git "2.39.5" from "git"
+2025-08-20 10:40:41.477 [info] [Model][doInitialScan] Initial repository scan started
+2025-08-20 10:40:41.478 [info] > git rev-parse --show-toplevel [41ms]
+2025-08-20 10:40:41.505 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [23ms]
+2025-08-20 10:40:41.515 [info] [Model][openRepository] Opened repository (path): /home/coder
+2025-08-20 10:40:41.515 [info] [Model][openRepository] Opened repository (real path): /home/coder
+2025-08-20 10:40:41.515 [info] [Model][openRepository] Opened repository (kind): repository
+2025-08-20 10:40:41.527 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-20 10:40:41.534 [info] > git config --get commit.template [13ms]
+2025-08-20 10:40:41.556 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2025-08-20 10:40:41.557 [warning] [Git][getBranch] No such branch: master
+2025-08-20 10:40:41.563 [info] > git rev-parse --show-toplevel [40ms]
+2025-08-20 10:40:41.583 [info] > git rev-parse --show-toplevel [16ms]
+2025-08-20 10:40:41.587 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [24ms]
+2025-08-20 10:40:41.606 [info] > git rev-parse --show-toplevel [20ms]
+2025-08-20 10:40:41.609 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-08-20 10:40:41.683 [info] > git status -z -uall [123ms]
+2025-08-20 10:40:41.696 [info] [Git][getRemotes] No remotes found in the git config file
+2025-08-20 10:40:41.708 [info] > git config --get commit.template [13ms]
+2025-08-20 10:40:41.711 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [21ms]
+2025-08-20 10:40:41.711 [warning] [Git][getBranch] No such branch: master
+2025-08-20 10:40:41.712 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-08-20 10:40:41.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [23ms]
+2025-08-20 10:40:41.723 [warning] [Git][getBranch] No such branch: master
+2025-08-20 10:40:41.748 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [20ms]
+2025-08-20 10:40:41.847 [info] > git status -z -uall [122ms]
+2025-08-20 10:40:42.094 [info] > git check-ignore -v -z --stdin [23ms]
