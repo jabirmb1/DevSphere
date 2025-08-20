@@ -1,0 +1,11 @@
+# Ignore code-server junk
+.cache/
+.config/
+.local/
+
+# Logs
+*.log
+
+# VS Code server stuff
+coder-logs/
+workspaceStorage/
