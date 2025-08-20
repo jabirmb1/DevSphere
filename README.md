@@ -43,10 +43,14 @@ http://localhost:8080
 
 ## 📂 Project Structure
 DevSphere/
-├─ Dockerfile          # Container setup
-├─ README.md           # Project overview and instructions
-├─ .gitignore          # Ignored files and folders
-└─ src/                # Your source code
+
+├─ Dockerfile           # Container setup
+
+├─ README.md            # Project overview and instructions
+
+├─ .gitignore           # Ignored files and folders
+
+└─ src/                 # Your source code
 Note: Cache, logs, and personal config files are ignored in .gitignore to keep repo clean.
 
 ### Contributing:
