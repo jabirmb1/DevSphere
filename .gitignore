@@ -6,6 +6,6 @@
 # Logs
 *.log
 
-# VS Code server stuff
+# VS Code server files
 coder-logs/
 workspaceStorage/
