@@ -1,8 +1,4 @@
-# ![DevSphere](https://img.shields.io/badge/DevSphere-Cloud%20IDE-blue) DevSphere
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue)](https://www.docker.com/)
-
+#  DevSphere
 ---
 
 ## 🚀 Why DevSphere?
@@ -31,36 +27,31 @@ With DevSphere, you can:
 
 1. **Clone the repository:**
 
-```bash
 git clone https://github.com/jabirmb1/DevSphere.git
 cd DevSphere
 Build and run the Docker container:
 
-bash
-Copy
-Edit
+
+2. **build and run docker**
+   
 docker build -t devsphere .
 docker run -p 8080:8080 devsphere
 Access DevSphere through your browser:
 
-arduino
-Copy
-Edit
+### Access on browser:
 http://localhost:8080
+
 ## 📂 Project Structure
-bash
-Copy
-Edit
 DevSphere/
 ├─ Dockerfile          # Container setup
 ├─ README.md           # Project overview and instructions
 ├─ .gitignore          # Ignored files and folders
 └─ src/                # Your source code
-Note: Cache, logs, and personal config files are ignored in .gitignore to keep the repo clean.
+Note: Cache, logs, and personal config files are ignored in .gitignore to keep repo clean.
 
-🤝 Contributing
+### Contributing:
 Contributions are welcome! Please:
 
 Avoid committing local cache or environment files.
 
-Follow consistent coding and commit practices.
+Follow consistent coding and commit practices. THX!!!!!!!
