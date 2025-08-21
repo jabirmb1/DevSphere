@@ -10,13 +10,13 @@ With DevSphere, you can:
 - Spin up **ready-to-code environments** in minutes.  
 - Collaborate with team members using **identical setups**.  
 - Keep your local machine clean by separating **cache, logs, and temporary files**.  
-- Work securely anywhere with a **containerized cloud IDE**.  
+- Work securely anywhere with a **containerized cloud IDE**. (WIP)
 
 ---
 
-## ✨ Features
+## ✨ Features MVP Stage
 
-- **VS Code Server** accessible from any browser  
+- **VS Code Server** accessible from any browser on host machine
 - **Dockerized environment** for reproducible setups  
 - **Persistent user configurations and themes**  
 - **Isolated development environment** with minimal local clutter  
